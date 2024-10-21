@@ -6,7 +6,7 @@ pip install python-telegram-bot requests
 # ایجاد فایل chatbot.py
 cat <<EOF > chatbot.py
 from telegram import Update
-from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
+from telegram.ext import Updater, CommandHandler, MessageHandler, filters
 import requests
 
 # تابعی برای ارسال پیام به CustomGPT API و دریافت پاسخ
